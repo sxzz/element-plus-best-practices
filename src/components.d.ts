@@ -9,6 +9,7 @@ declare module 'vue' {
     IEpAddLocation: typeof import('~icons/ep/add-location')['default']
     IEpAim: typeof import('~icons/ep/aim')['default']
     IEpCircleCheckFilled: typeof import('~icons/ep/circle-check-filled')['default']
+    Loading: typeof import('element-plus/es')['ElLoadingDirective']
   }
 }
 

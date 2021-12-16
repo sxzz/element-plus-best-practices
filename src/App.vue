@@ -27,4 +27,6 @@ const handleClick = () => {
       Hello world
     </el-button>
   </div>
+
+  <div v-loading="true" style="height: 500px">Loading Area</div>
 </template>
