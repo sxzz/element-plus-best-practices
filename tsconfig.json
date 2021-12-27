@@ -14,7 +14,8 @@
     "types": ["vite/client", "element-plus/global", "unplugin-icons/types/vue"],
     "paths": {
       "@/*": ["src/*"]
-    }
+    },
+    "skipLibCheck": true
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
