@@ -9,6 +9,9 @@
   <a href="https://github.com/sxzz/element-plus-best-practices">
     <img alt="GitHub forks" src="https://img.shields.io/github/forks/sxzz/element-plus-best-practices?style=social">
   </a>
+  <a href="https://996.icu">
+    <img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="996.icu" />
+  </a>
   <br>
 </p>
 
