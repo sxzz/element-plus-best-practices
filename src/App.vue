@@ -10,6 +10,16 @@ const handleClick = () => {
 }
 </script>
 
+<script lang="ts">
+export default defineComponent({
+  components: {
+    // Method 3: or we can use `unplugin-auto-import` to auto import icon component and register manally. not recommended)
+    // 方法 3：或者我们还可以使用 `unplugin-auto-import` 来自动导入组件，再手动注册组件。（不推荐）
+    IconEpRefresh,
+  },
+})
+</script>
+
 <template>
   <el-space direction="vertical">
     <IconEpApple />
@@ -20,6 +30,10 @@ const handleClick = () => {
     <!-- 请参阅 vite.config.ts -->
     <i-ep-add-location />
     <i-ep-aim />
+
+    <!-- Method 3 -->
+    <!-- 方法 3 -->
+    <IconEpRefresh />
 
     <!-- For more icons please refer to https://icones.js.org/ -->
     <!-- 更多图标请参阅 https://icones.js.org/ -->
