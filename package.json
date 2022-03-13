@@ -17,6 +17,7 @@
     "@types/lodash-es": "^4.17.6",
     "@types/node": "*",
     "@vitejs/plugin-vue": "^2.2.4",
+    "@vue/runtime-core": "^3.2.31",
     "@vue/tsconfig": "^0.1.3",
     "eslint": "^8.11.0",
     "eslint-define-config": "^1.2.5",

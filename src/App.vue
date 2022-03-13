@@ -45,5 +45,7 @@ export default defineComponent({
     <el-input v-model="msg" />
   </el-space>
 
-  <div v-loading="true" style="height: 500px">Loading Area</div>
+  <div v-loading="{ text: 'Loading...' }" style="height: 500px">
+    Loading Area
+  </div>
 </template>
