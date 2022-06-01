@@ -1,12 +1,14 @@
 {
   "name": "element-plus-best-practices",
   "private": true,
+  "packageManager": "pnpm@7.1.7",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
+    "build": "pnpm run typecheck && vite build",
+    "typecheck": "vue-tsc --noEmit",
     "preview": "vite preview",
     "lint": "eslint --ext .ts,.js,.vue,.json,.md .",
-    "lint:fix": "pnpm lint -- --fix"
+    "lint:fix": "pnpm lint --fix"
   },
   "dependencies": {
     "element-plus": "^2.2.2",
