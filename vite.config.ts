@@ -17,7 +17,9 @@ export default defineConfig({
     },
   },
   plugins: [
-    Vue(),
+    Vue({
+      reactivityTransform: true,
+    }),
     AutoImport({
       // Auto import functions from Vue, e.g. ref, reactive, toRef...
       // 自动导入 Vue 相关函数，如：ref, reactive, toRef 等

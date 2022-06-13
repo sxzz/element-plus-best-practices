@@ -19,17 +19,19 @@
 
 ## Features
 
-- ⚡️ [Vue 3](https://github.com/vuejs/vue-next), [Vite 2](https://github.com/vitejs/vite), [pnpm](https://pnpm.js.org/), [ESBuild](https://github.com/evanw/esbuild) - born with fastness
-
-- 📦 [Components auto importing](https://github.com/antfu/unplugin-auto-import)
-
-- 😃 [Element Plus Icons](https://github.com/antfu/unplugin-icons)
-
-- 📥 [APIs auto importing](https://github.com/antfu/unplugin-auto-import) - use Composition API and others directly
+- ⚡️ [Vue 3](https://github.com/vuejs/vue-next), [Vite 2](https://github.com/vitejs/vite), [pnpm](https://pnpm.js.org/) - born with fastness
 
 - 🦾 TypeScript, of course
 
-- ESLInt & Prettier
+- 📦 [Components auto importing](https://github.com/antfu/unplugin-auto-import)
+
+- 📥 [APIs auto importing](https://github.com/antfu/unplugin-auto-import) - use Composition API and others directly
+
+- 😃 [Element Plus Icons](https://github.com/antfu/unplugin-icons)
+
+- 🔍 [ESLint & Prettier](https://github.com/sxzz/eslint-config)
+
+- 🪄 [Reactivity Transform](https://vuejs.org/guide/extras/reactivity-transform.html)
 
 ## Sponsors
 

@@ -3,10 +3,11 @@
 // 方式 1:手动导入并注册图标组件
 import IconEpApple from '~icons/ep/apple'
 
-const msg = ref('')
+let msg = $ref('')
 
 const handleClick = () => {
   ElMessage.success('Hello world')
+  msg = 'hello world'
 }
 </script>
 
