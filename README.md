@@ -39,6 +39,10 @@
   </a>
 </p>
 
+## Alternatives
+
+- [element-plus-vite-starter](https://github.com/element-plus/element-plus-vite-starter) - (**Official**) A starter kit for Element Plus with Vite.
+
 ## License
 
 [MIT](./LICENSE) License © 2021-PRESENT [三咲智子](https://github.com/sxzz)
