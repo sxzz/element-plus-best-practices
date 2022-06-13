@@ -17,6 +17,8 @@
 
 # Element Plus Best Practices 最佳实践
 
+[Preview](https://element-plus-best-practices.vercel.app)
+
 ## Features
 
 - ⚡️ [Vue 3](https://github.com/vuejs/vue-next), [Vite 2](https://github.com/vitejs/vite), [pnpm](https://pnpm.js.org/) - born with fastness
