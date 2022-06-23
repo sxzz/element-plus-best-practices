@@ -22,7 +22,7 @@ export default defineComponent({
 </script>
 
 <template>
-  <el-space direction="vertical">
+  <el-space>
     <IconEpApple />
 
     <!-- Method 2 -->
@@ -40,13 +40,16 @@ export default defineComponent({
     <!-- 更多图标请参阅 https://icones.js.org/ -->
 
     <el-button @click="handleClick">
-      <el-icon><i-ep-circle-check-filled /></el-icon> Hello world
+      <template #icon><i-ep-circle-check-filled /></template>
+      Hello world
     </el-button>
-
     <el-input v-model="msg" />
   </el-space>
 
-  <div v-loading="{ text: 'Loading...' }" style="height: 500px">
+  <div
+    v-loading="{ text: 'Loading...' }"
+    style="height: 300px; width: 300px; border: 1px solid #ccc"
+  >
     Loading Area
   </div>
 </template>

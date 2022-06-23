@@ -36,7 +36,7 @@ export default defineConfig({
           prefix: 'Icon',
         }),
       ],
-
+      vueTemplate: true,
       dts: path.resolve(pathSrc, 'typings', 'auto-imports.d.ts'),
     }),
 
