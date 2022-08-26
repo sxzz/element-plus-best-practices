@@ -3,6 +3,8 @@
 // Read more: https://github.com/vuejs/core/pull/3399
 import '@vue/runtime-core'
 
+export {}
+
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     ElButton: typeof import('element-plus/es')['ElButton']
@@ -13,8 +15,8 @@ declare module '@vue/runtime-core' {
     IEpAddLocation: typeof import('~icons/ep/add-location')['default']
     IEpAim: typeof import('~icons/ep/aim')['default']
     IEpCircleCheckFilled: typeof import('~icons/ep/circle-check-filled')['default']
-    Loading: typeof import('element-plus/es')['ElLoadingDirective']
+  }
+  export interface ComponentCustomProperties {
+    vLoading: typeof import('element-plus/es')['ElLoadingDirective']
   }
 }
-
-export {}
